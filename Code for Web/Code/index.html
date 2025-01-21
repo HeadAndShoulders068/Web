@@ -1,0 +1,250 @@
+<!doctype html>
+<html lang="en" data-bs-theme="auto">
+
+<head>
+
+  <script src="../assets/js/color-modes.js"></script>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Itim&display=swap" rel="stylesheet">
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="">
+  <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+  <meta name="generator" content="Hugo 0.122.0">
+  <title>เว็บไซต์สาขามัลติมีเดีย</title>
+
+  <link href="../assets/dist/css/bootstrap.min.css" rel="stylesheet">
+
+</head>
+
+<style>
+  body {
+    font-family: "Itim", serif;
+    font-weight: 500;
+    margin: 0;
+    padding: 0;
+    background-color: #f3ecc5;
+  }
+
+  .nav-scroller {
+    position: relative;
+    z-index: 2;
+    height: 2.75rem;
+    overflow-y: hidden;
+  }
+
+  .nav-scroller .nav {
+    display: flex;
+    flex-wrap: nowrap;
+    padding-bottom: 1rem;
+    margin-top: -1px;
+    overflow-x: auto;
+    text-align: center;
+    white-space: nowrap;
+    -webkit-overflow-scrolling: touch;
+  }
+
+  .carousel-item img {
+    object-fit: cover;
+    width: 100%;
+    height: 555px;
+    /* ให้สูงเท่ากับแบนเนอร์ */
+    border-radius: 2%;
+  }
+
+  .carousel-caption {
+    bottom: 20px;
+    left: 20px;
+    right: 77%;
+    text-align: left;
+    color: white;
+    padding: 15px;
+  }
+
+  .banner {
+    position: relative;
+    width: 100%;
+    height: 555px;
+    border-radius: 2%;
+  }
+
+  .video-container {
+  position: relative;
+  border-radius: 10px; /* มุมโค้ง */
+  overflow: hidden; /* ซ่อนส่วนที่เกิน */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.video-container iframe {
+  width: 100%;
+  height: 315px; /* ความสูงของวิดีโอ */
+  border: none; /* ลบกรอบ */
+}
+
+</style>
+
+
+<div class="container">
+  <nav class="navbar navbar-expand-lg bg-body-tertiary rounded" aria-label="Eleventh navbar example">
+    <div class="container-fluid">
+      <a class="navbar-brand d-flex align-items-center" href="#">
+        <img src="MMT ICON.png" alt="Logo" style="width: 55px; height: auto; ">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample09"
+        aria-controls="navbarsExample09" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarsExample09">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="https://sci.rmutsb.ac.th/multimedia/">หลักสูตร</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">อาจารย์</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" aria-disabled="true" href="https://www.facebook.com/MMT.RUS">กิจกรรมข่าวสาร</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown"
+              aria-expanded="false">ข้อมูลเพิ่มเติม</a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="https://arit.rmutsb.ac.th/content/406">แผนที่และช่องทางติดต่อ</a></li>
+            </ul>
+          </li>
+        </ul>
+        <form role="search">
+          <input class="form-control" type="search" placeholder="Search" aria-label="Search">
+        </form>
+      </div>
+    </div>
+  </nav>
+
+
+  <!--เส้นขั้น-->
+  <main>
+    <div class="container py-4">
+      <header class="pb-3 mb-4 border-bottom">
+        <a href="/" class="d-flex align-items-center text-body-emphasis text-decoration-none">
+          <span class="fs-4"></span>
+        </a>
+      </header>
+
+      <div id="myCarousel" class="carousel slide mb-6" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true"
+            aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <section class="banner">
+          <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <a href="https://admis.rmutsb.ac.th/">
+                  <img src="banner1.jpg" alt="First slide">
+                  <div class="container">
+                    <div class="carousel-caption text-start">
+                    </div>
+                </a>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <a
+                href="https://www.facebook.com/share/p/1BNe23Zdzw/">
+                <img src="banner2.jpg" alt="Second slide">
+                <div class="container">
+                  <div class="carousel-caption text-start">
+                  </div>
+              </a>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <a href="https://www.facebook.com/share/p/1F22bm2ZVC/">
+              <img src="banner5.jpg" alt="third slide">
+              <div class="container">
+                <div class="carousel-caption text-start">
+                </div>
+            </a>
+          </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">ก่อนหน้า</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">ต่อไป</span>
+      </button>
+    </div>
+    <br>
+
+
+
+
+    <div class="p-5 mb-4 bg-body-tertiary rounded-3">
+      <div class="container-fluid py-5">
+        <h1 class="display-5 fw-bold">คณะวิทยาศาสตร์และเทคโนโลยี</h1>
+        <p class="col-md-8 fs-4">สาขาวิชามัลติมีเดีย หลักสูตรปริญญาตรี
+          มุ่งเน้นการพัฒนานักศึกษาให้มีความเชี่ยวชาญด้านการสร้างสรรค์
+          และออกแบบสื่อมัลติมีเดียในยุคดิจิทัลด้วยการเรียนรู้เทคโนโลยีที่ทันสมัย เช่น การออกแบบกราฟิก
+          การสร้างภาพเคลื่อนไหว เป็นต้น</p>
+        <a href="https://sci.rmutsb.ac.th/multimedia/">
+          <button class="btn btn-primary btn-lg" type="button">ดูข้อมูลเพิ่มเติม</button>
+        </a>
+      </div>
+    </div>
+
+    <div class="row align-items-md-stretch video-container">
+      <div class="col-md-6">
+        <div class="h-100 p-5 text-bg-dark rounded-3">
+          <h2>โครงสร้างหลักสูตร</h2>
+          <p>โครงสร้างหลักสูตรของสาขาวิชานี้
+            แบ่งเป็นหมวดวิชาที่สอดคล้องกับที่กำหนดไว้ในเกณฑ์มาตรฐานหลักสูตรของกระทรวงศึกษาธิการ</p>
+            <iframe 
+            width="560" 
+            height="315" 
+            src="https://www.youtube.com/embed/i-Jtnw7v4Bc?si=KUhe2ynsEg5N5EKV" 
+            title="YouTube video player" 
+            frameborder="0" 
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+            allowfullscreen>
+          </iframe>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="h-100 p-5 bg-body-tertiary border rounded-3">
+          <h2>ช่องทางโซเชียลมีเดีย</h2>
+          <a class="navbar-brand d-flex align-items-center" href="https://www.facebook.com/MMT.RUS/">
+            <img src="Facebook.png" alt="Logo" style="width: 222px; height: auto;"> <button
+              class="btn btn-outline-secondary" type="button"> Multimedia_Technology_Rmutsb </button>
+          </a>
+          <a class="navbar-brand d-flex align-items-center"
+            href="https://www.youtube.com/channel/UClM8qn2QhlC3q6EiVznQ9JA">
+            <img src="youtube.png" alt="Logo" style="width: 222px; height: auto;"> <button
+              class="btn btn-outline-secondary" type="button"> MMT RUS </button>
+          </a>
+          <br>
+          <a class="navbar-brand d-flex align-items-center" href="https://www.tiktok.com/@mmt_rus">
+            <img src="TikTok.png" alt="Logo" style="width: 222px; height: auto;"> <button
+              class="btn btn-outline-secondary" type="button"> mmt_rus </button>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <footer class="pt-3 mt-4 text-body-secondary border-top">
+
+    </footer>
+</div>
+</main>
+
+<script src="../assets/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html>
